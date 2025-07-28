@@ -1,0 +1,32 @@
+
+@media screen and (max-width: 1200px) {
+    header {
+        justify-content: center;
+    }
+
+    .container-header {
+        display: flex;
+        align-items: center;
+        width: 700px;
+        height: 350px;
+    }
+
+    .title-container-header {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    line-height: 100%;
+    text-transform: uppercase;
+    margin: 0px 0px 10px;
+    color: white;
+    }
+    .paragraph-header {
+        font-size: 1rem;
+        margin: 0px 0px;
+        color: white;
+        text-align: center;
+}
+
+
+}
