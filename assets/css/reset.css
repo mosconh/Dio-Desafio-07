@@ -6,4 +6,6 @@
     font-family: "Open Sans", sans-serif;
     text-decoration: none;
     color: white;
+    box-sizing: border-box;
+    max-width: 100%;
 }
