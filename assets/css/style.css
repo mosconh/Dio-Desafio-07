@@ -91,7 +91,7 @@ button {
 
 .study-group-content-03 {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: center;
     margin: auto;
     padding: 20px;  
