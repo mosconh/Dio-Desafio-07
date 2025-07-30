@@ -1,307 +1,172 @@
+@media  (max-width: 600px) {
 
-@media  (min-width: 475px) {
+header {
+    background-image: url('../images/Header\ Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box; 
+}
 
-    .title-container-header {
-        text-align: center;
-        width: 475px;
-    }
+.title-container-header {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    line-height: 100%;
+    text-transform: uppercase;
+    width: 250px;
+    margin: 0px 0px 10px;
+    color: white;
+    text-align: left;
+}
 
-    .paragraph-header {
-        text-align: center;
-        width: 475px;
-    }
+.paragraph-header {
+    font-size: .9rem;
+    margin: 0px 0px;
+    color: white;
+    text-align: left;
+}
 
-    .container-header {
-       width: 475px;
-    }
+.container-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    padding: 10px;
+    gap: 15px;
+    width: 400px;
+}
 
-    /*main*/
-    .text-section {
-        width: 475px;
-    }
+button {
+    border: none;
+    border-radius: 28px;
+    width: 100vw;
+    height: 45px;
+    padding: 10px;
+    font-size: .6rem;
+    box-shadow: 1px 3px 1px #00000025;
+    font-size: 100%;
+}
 
-    h2 {
-        width: 475px;
-        font-size: 1.5rem;
-    }
+#button-download {
+    color: #23272A;
+    background-color: white;
+}
 
-    p {
-        width: 475px;
-        font-size: 1rem;
-    }
-    .header-4th-section {
-        text-align: center;
-    }
+#button-website {
+    color: #FFFFFF;
+    background-color: #23272A;
+}
 
-    .paragraph-section-4th {
-        width: 475px;
-    }
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+
+    
+}
+/*header*/
+
+/*main*/
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    gap: 20px;
+    width: 320px;
+    
+}
+
+h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-style: bolder;
+    font-size: 1.4rem;
+    line-height: 120%;
+    letter-spacing: 0%;
+    width: 330px;
+    color: #23272A;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .9rem;
+    line-height: 120%;
+    letter-spacing: 0%;
+    width: 350px;
+    color: #23272A;
+}
+
+.study-group-content-01 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
 
 }
 
-@media  (min-width: 640px) {
+.study-group-content-02 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    background-color: #F6F6F6;
 
-    .title-container-header {
-        text-align: center;
-        width: 640px;
-        font-size: 2.3rem;
-    }
-
-    .paragraph-header {
-        text-align: center;
-        width: 640px;
-        font-size: 1.8rem;
-    }
-
-    .container-header {
-       width: 640px;
-    }
-
-    /*main*/
-    .text-section {
-        width: 640px;
-    }
-
-    h2 {
-        width: 640px;
-        font-size: 1.7rem;
-    }
-
-    p {
-        width: 640px;
-        font-size: 1rem;
-    }
-    .header-4th-section {
-        text-align: center;
-        font-size: 2.4rem;
-    }
-
-    .paragraph-section-4th {
-        width: 640px;
-    }
+    
 }
 
-@media  (min-width: 768px) {
+.study-group-content-03 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
 
-    .title-container-header {
-        text-align: center;
-        margin: auto;
-        width: 300px;
-        font-size: 3rem;
-    }
-
-    .paragraph-header {
-        text-align: center;
-        width: 768px;
-        font-size: 1rem;
-    }
-
-    header {
-        display: flex;
-        align-items: center;
-    }
-
-    .container-header {
-       width: 768px;
-       height: 300px;
-       justify-content: space-around;
-       margin: auto;
-    }
-
-    .buttons {
-        flex-direction: row;
-    }
-
-    /*main*/
-    .text-section {
-        width: 768px;
-    }
-
-    h2 {
-        width: 768px;
-        font-size: 1.8rem;
-        text-align: center;
-    }
-
-    p {
-        width: 768px;
-        font-size: 1rem;
-        text-align: center;
-    }
-    .header-4th-section {
-        text-align: center;
-        font-size: 2.4rem;
-    }
-
-    .paragraph-section-4th {
-        width: 768px;
-    }
+    
 }
 
-@media  (min-width: 1024px) {
+.study-group-content-04 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    background-color: #F6F6F6;
 
-    .container-header {
-        margin: 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        margin: auto;
-        width: 700px;
-        gap: 20px;
-    }
-
-    .title-container-header {
-        font-family: "Luckiest Guy", cursive;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 3rem;
-        text-align: center;
-        line-height: 100%;
-        text-transform: uppercase;
-        width: 300px;
-        margin: 0px 0px 10px;
-        color: white;
-    }
-
-    .paragraph-header {
-        font-size: .9rem;
-        margin: 0px 0px;
-        color: white;
-        text-align: center;
-    }
-
-    button {
-        border: none;
-        border-radius: 28px;
-        height: 45px;
-        padding: 10px;
-        font-size: .6rem;
-        box-shadow: 1px 3px 1px #00000025;
-        font-size: 100%;
-    }
-
-    #button-download {
-        color: #23272A;
-        background-color: white;
-    }
-
-    #button-website {
-        color: #FFFFFF;
-        background-color: #23272A;
-    }
-
-    .buttons {
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-        margin-top: 10px;
-    }
-    /*header*/
-
-    /*main*/
-
-    .study-group-content-01 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: auto;
-        padding: 20px;
-    }
-
-    .study-group-content-02 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 20px;
-        gap: 15px;
-        background-color: #F6F6F6;
-    }
-
-    .study-group-content-03 {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: center;
-        margin: auto;
-        padding: 20px;  
-    }
-
-    .study-group-content-04 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
-        background-color: #F6F6F6;
-    }
-
-    .header-4th-section {
-        font-family: "Luckiest Guy", cursive;
-        font-weight: 400;
-        width: 400px;
-        font-style: normal;
-        font-size: 2rem;
-        line-height: 100%;
-        color: #23272A;
-        text-align: center;
-    }
-
-    .text-4th-section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
-
-    .image-4th-section {
-        margin: auto;
-        width: 750px;
-    }
-
-    .text-section {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 20px;
-        width: 340px;
-    }
-
-    .text-section-01 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;  
-    }
-
-    h2 {
-        font-family: "Open Sans", sans-serif;
-        font-weight: 800;
-        font-style: bolder;
-        font-size: 2.5rem;
-        line-height: 120%;
-        letter-spacing: 0%;
-        color: #23272A;
-    }
-
-    p {
-        font-family: "Open Sans", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size: .9rem;
-        line-height: 120%;
-        letter-spacing: 0%;
-        color: #23272A;
-    }
-
-
-    .paragraph-4th-section {
-        text-align: center;
-        width: 750px;
-    }
 }
 
-@media  (min-width: 1536px) {
+.header-4th-section {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    line-height: 100%;
+    color: #23272A;
+}
 
-   
+.paragraph-section-4th {
+    width: 320px;
+}
+
+footer {
+    background-image: url('../images/discord-logo.png');
+    height: 100px;
+    background-position: center;
+    background-color: #23272A;
+    background-repeat: no-repeat;
+}
 }
